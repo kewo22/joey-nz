@@ -23,6 +23,7 @@ export function Nav(props: NavProps) {
     }
     if(mobileNavRef.current){
       const el = mobileNavRef.current as HTMLDivElement;
+      document.querySelector('body')?.classList.toggle('overflow-hidden')
       el.classList.toggle('h-0')
       el.classList.toggle('h-full')
     }
