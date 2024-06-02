@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import { Typography } from "./ui/typography";
 
-import myAnswer from "../public/images/my_answer.svg";
+import myAnswer from "../public/images/my_answer_multi-col.svg";
 
 import "../app/globals.css";
 
