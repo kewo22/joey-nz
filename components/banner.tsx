@@ -12,9 +12,10 @@ type BannerProps = {};
 
 export function Banner(props: BannerProps) {
   //   const {} = props;
-
+  // max-w-6xl xl:mx-auto
+  
   return (
-    <section className="block sm:flex sm:flex-row sm:gap-10 xl:gap-28 max-w-6xl xl:mx-auto py-10 sm:py-20 px-5 mt-14">
+    <section className="block sm:flex sm:flex-row sm:gap-10 xl:gap-28  py-10 sm:py-20 px-5 mt-14">
       <div className="flex flex-col justify-center gap-5">
         <Typography size={"banner"} variant={"banner"}>
           Find better service providers in NZ under 4 minutes.

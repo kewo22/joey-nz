@@ -6,7 +6,6 @@ import { ComparisonMadeEasy } from "@/components/comparison-made-easy";
 import { WhyCompareWithUs } from "@/components/why-compare-with-us";
 
 import routerSvg from "../public/images/router-primary-sm.svg";
-import { Footer } from "@/components/footer";
 import { Contact } from "@/components/contact";
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <ComparisonMadeEasy />
       <WhyCompareWithUs />
       <Contact />
-      <Footer />
 
       {/* <div className="hover-card">
         <div className="face face1">
